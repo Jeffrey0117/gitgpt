@@ -1,0 +1,14 @@
+{
+  "name": "gitgpt",
+  "version": "1.0.0",
+  "description": "Extract and manage AI conversation history",
+  "type": "module",
+  "bin": {
+    "gitgpt": "./src/cli.js"
+  },
+  "scripts": {
+    "test": "node src/cli.js"
+  },
+  "keywords": ["cli", "ai", "conversation", "extract"],
+  "license": "MIT"
+}
